@@ -25,6 +25,13 @@
    git clone code
    
    ```
+<!-- 
+   2. Creare a Project
+   ```
+   npm create vite@latest hems_web -- -- template react
+
+   ```
+    -->
 2. Enter to Project
    ```
    cd hems_web
