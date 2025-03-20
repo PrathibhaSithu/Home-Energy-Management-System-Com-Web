@@ -1,9 +1,5 @@
 # Home Energy Management System Website 🌞🔋 ♨️🔥 💧 ⚡
 
-
-# Overview of the Project
-   ### Home Energy Management is becoming a most common problem for both our economy and environment. By Poor practices of managing, saving, or reusing, created a great deal of waste and global warming. Our goal is to make a business solution to manage home energy
-
 # Sub Objectives
 ### - Gas & Fire
 ### - Water Management
@@ -31,7 +27,7 @@
    npm create vite@latest hems_web -- -- template react
 
    ```
-    -->
+-->
 2. Enter to Project
    ```
    cd hems_web
