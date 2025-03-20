@@ -1,7 +1,11 @@
 import React from 'react';
 
 const App = () => {
-  return <div className="bg-red-200">App</div>;
+  return <>
+    <main>
+      
+    </main>
+  </>;
 };
 
 export default App
