@@ -1,10 +1,10 @@
 # Home Energy Management System Website 🌞🔋 ♨️🔥 💧 ⚡
 
 # Sub Objectives
-### - Gas & Fire
-### - Water Management
-### - Solar Management 
-### - Electricity Management  
+### - Gas & Fire Management System
+### - Water Management System
+### - Solar Management System
+### - Electricity Management System
 
 # Member Details
 
