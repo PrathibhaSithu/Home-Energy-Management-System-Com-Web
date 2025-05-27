@@ -1,0 +1,980 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./lib/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="./lib/bootstrap-4.5.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <title></title>
+</head>
+
+<body style="background-color: #E9F7EF">
+    <!-- NavBar -->
+    <nav id="navmenu" class="navbar navbar-expand-lg sticky-top">
+        <a class="navbar-brand" href="#home">
+            <img src="./Images/logo/icon.png" width="30" height="30" class="d-inline-block align-top"  loading="lazy">
+            <span>HEM-System</span></br>
+        </a>
+        <button id="nav-toggle" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span id="nav-toggle-icon" class="fas fa-ellipsis-v"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul id="navmenu-links" class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#home">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Project Scope
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#project-scope">Literature Survey</a>
+                <a class="dropdown-item" href="#research_gap">Research Gap</a>
+                <a class="dropdown-item" href="#research_problem">Research Problem & Solution</a>
+                <a class="dropdown-item" href="#research_objectives">Research Objectives</a>
+                <a class="dropdown-item" href="#methodology">Methodology</a>
+                <a class="dropdown-item" href="#tech_used">Technologies</a>
+              </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#milestones">Milestones</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Downloads
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#downloads">Documents</a>
+                  <a class="dropdown-item" href="#presentations">Presentations</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#about">About Us</a>
+            </li>
+			<li class="nav-item">
+                <a class="nav-link" href="#achievements">Achievements</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <!-- Home -->
+      <section id="home">
+        <div class="container">
+            <div class="hero-cta">
+                <h1>Home Energy Management System <br/> With AI and IoT</h1>
+                <a class="btn btn-outline-light" type="button" href="#project-scope"><span class="btn-text">Learn More</span><span class="fas fa-chevron-right btn-icon"></span></a>
+            </div>
+        </div>
+        <div class="hero-cover">
+            <img class="spotlight-image" src="./Images/other/skeleton.png"/>
+            <img class="hero-image" src="./Images/other/background.jpg"/>
+        </div>
+      </section>
+      <!-- project-scope -->
+      <section id="project-scope" class="main-sections" style="background-color:#FDFEFE">
+        <div class="container">
+            <h5 class="section-headings">Project Scope</h5>
+            <!-- Literature Survey -->
+            <div id="literature" class="sub-section">
+                <h2>Literature Survey</h2>
+                <div class="row">
+                  <div id="project-scope-left" class="col-md-6 col-sm-12 pt-lg-5">
+                    <div class="section-left">
+                      <div class="section-info-div">
+                        <div class="row">
+                          <div class="col-sm-5"><img src="./Images/lit/4.png" width="60%"/></div>
+                          <div class="col-sm-7 text-col">Sri lanka is the 4th largest coconut exporter in the world <span style="color: grey; font-size: 12px;">[1]</span style="color: grey; font-size: 12px;"></div>
+                        </div>
+                      </div>
+                      <div class="section-figure " >
+                        <img style="align-items:center" src="./Images/lit/stat.jpg" width="80%"/>
+                        <p>Figure 1. Annual coconut production 2011 - 2021	[1]</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div id="project-scope-right" class="col-md-6 col-sm-12 pt-lg-5 justify-text">
+				            <p>Household Energy Management Systems (HEMS) have gained increasing attention due to rising energy demands and the push for efficiency in residential settings. Advances in AI, IoT, and renewable energy have enabled smarter solutions for optimizing home utilities. This literature review explores four main domains: solar energy, gas and fire safety, water management, and electricity optimization. AI-based forecasting and hybrid storage systems have shown promise in stabilizing solar power variability and optimizing energy distribution [1], [2], [3]. Yet, gaps remain in predictive maintenance and real-time localized forecasting [3], [4], [5]. Gas leak detection has advanced through MQ-6 sensors and voice-controlled systems, enabling faster emergency response [6]. Deep learning and CNNs have improved fire detection accuracy, replacing basic smoke sensors with real-time visual monitoring [7], [8].
+                      <p>Water conservation technologies now utilize IoT and AI for leak detection and consumption pattern analysis, though predictive systems are still underdeveloped [9], [10]. Meanwhile, AI-enabled HEMS optimize electricity use through real-time appliance control, demand forecasting, and reinforcement learning [11], [12]. Edge computing and multi-agent models further decentralize control, enhancing scalability and responsiveness [13], [14]. Despite technological progress, challenges remain in cost, interoperability, and standardization, necessitating unified frameworks for fully intelligent, sustainable homes [15].</p>
+                      <div class="references">
+                      <p class="pt-sm-1"><strong>References</strong></p>
+                      <ol>
+                        <li>L. Zhang et al., "Solar energy forecasting and energy storage management for smart homes," <i>IEEE Transactions on Smart Grid</i>, vol. 9, no. 6, pp. 6265–6273, Nov. 2018.</li>
+
+                        <li>A. Gupta et al., "AI-based solar energy load forecasting for smart grid applications," <i>IEEE Access</i>, vol. 7, pp. 167212–167223, 2019.</li>
+
+                        <li>M. Patel, D. Ghosh, and R. Sen, "Predictive maintenance for solar energy systems," <i>IEEE Transactions on Automation Science and Engineering</i>, vol. 16, no. 3, pp. 1264–1272, Jul. 2019.</li>
+
+                        <li>Y. Zhang, H. Li, and F. Liu, "Intelligent gas and fire detection system for smart homes," <i>IEEE Sensors Journal</i>, vol. 19, no. 15, pp. 5970–5977, Aug. 2019.</li>
+
+                        <li>D. K. R. Sastry and M. K. Gupta, "Smart water conservation techniques using IoT and machine learning," <i>IEEE Transactions on Sustainable Energy</i>, vol. 8, no. 3, pp. 1085–1093, Jul. 2017.</li>
+
+                        <li>S. Chouhan and R. R. Sharma, "Multi-energy source coordination in smart grids," <i>IEEE Access</i>, vol. 8, pp. 34567–34578, 2020.</li>
+
+                        <li>K. Patel and A. Verma, "Optimizing residential electricity usage using smart appliances and AI," <i>IEEE Transactions on Smart Homes</i>, vol. 7, no. 2, pp. 85–94, Apr. 2018.</li>
+
+                        <li>M. Singh et al., "Energy consumption optimization using artificial intelligence in smart homes," <i>IEEE Transactions on Power Systems</i>, vol. 34, no. 4, pp. 3487–3496, Jul. 2019.</li>
+
+                        <li>A. Taik and S. Cherkaoui, "Electrical load forecasting using edge computing and federated learning," <i>arXiv preprint</i>, arXiv:2210.12693, 2022.</li>
+
+                        <li>Y. Li, Y. Du, H. Zhu, Y. Liu, and C. Xu, "Federated multi-agent deep reinforcement learning for real-time residential load control," <i>arXiv preprint</i>, arXiv:2206.07966, 2022.</li>
+
+                        <li>H. Singh and E. Annapoorna, "Fuzzy logic-based energy management in smart grids," <i>MATEC Web of Conferences</i>, vol. 387, 2024.</li>
+
+                        <li>A. Kumar Singla and C. Srilatha, "Fuzzy logic-based energy storage control in smart grids," <i>MATEC Web of Conferences</i>, vol. 387, 2024.</li>
+
+                        <li>M. Phillips, "This gadget can help save you big bucks," <i>Time</i>, 2016. [Online].</li>
+
+                        <li>V. Sharma and A. Patel, "Smart fire detection using IoT and machine learning," <i>International Journal of Emerging Technology and Advanced Engineering</i>, vol. 10, no. 5, pp. 205–210, 2020.</li>
+
+                        <li>P. R. Praveen and R. D. Sudhakar, "IoT-based smart firefighting drone system," <i>International Journal of Science and Technology Research</i>, vol. 9, no. 2, pp. 1525–1529, 2020.</li>
+                       </ol>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <!-- Research Gap -->
+            <div id="research_gap" class="sub-section" >
+              <h2>Research Gap</h2>
+              <p>Following areas are the research gaps found in most of the recent researches.</p>
+              <div class="row mt-5 research-gap">
+			<div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="fa-container text-center">
+                        <i class="fas fa-search fa-3x " aria-hidden="true" style="color: green; "></i>
+                    </div>
+                    <div class="text-center" style="padding-top: 20px;">
+                        <h5>Identification & classification </h5>
+                    </div>
+                    <div>
+                        <p style="text-align: justify;"> Existing HEMS often manage electricity, gas, water, and solar energy as isolated subsystems. A unified, AI-driven solution capable of integrating all energy resources into one intelligent platform for centralized control and optimization is lacking.</div>
+                </div>
+                <div class="col-md-4">
+                    <div class="fa-container text-center">
+                        <i class="fas fa-chart-line fa-3x " aria-hidden="true" style="color: green;"></i>
+                    </div>
+                    <div class="text-center" style="padding-top: 20px;">
+                        <h5>Severity assessment</h5>
+                    </div>
+                    <div>
+                        <p style="text-align: justify;">Current systems lack real-time interoperability and communication frameworks across energy modules. Automated alerts, mobile notifications, and user-friendly dashboards are often absent, limiting situational awareness and quick user or system response in emergency scenarios.</div>
+                </div>
+                <div class="col-md-4">
+                    <div class="fa-container text-center">
+                        <i class="fas fa-comments fa-3x " aria-hidden="true" style="color: green;"></i>
+                    </div>
+                    <div class="text-center" style="padding-top: 20px;">
+                        <h5>Information sharing</h5>
+                    </div>
+                    <div>
+                        <p style="text-align: justify;">Real time communication system to speed up information sharing between coconut growers, extension personals and researchers has been identified as priority need for effective pest and disease control.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+			</div> 
+              </div>
+          </div>
+            <!-- Research Problem -->
+            <div id="research_problem" class="sub-section">
+              <h2>Research Problem & Solution</h2>
+			   <div class="row">
+                <div id="project-scope-left" class="col-md-6 col-sm-12 pt-lg-5 justify-text">
+                 <h5><strong>Proposed Problem</strong></h5>
+				 </br>
+					<h4 class="highlight">How to integrate and unify electricity, gas, solar energy, and water management systems into a centralized, intelligent platform to optimize home energy use and reduce inefficiencies?</h4>
+					<p></p>
+					<p style="text-align: justify;">Current Home Energy Management Systems (HEMS) often operate these subsystems independently, resulting in fragmented control, energy waste, and redundant infrastructure. For example, solar energy peaks may not coincide with electricity demand, leading to wasted energy or inefficient storage. This lack of integration limits real-time adaptive control and the full benefits of smart home energy optimization.</p>
+				</br>
+				</div>
+
+				<div id="project-scope-right" class="col-md-6 col-sm-12 pt-lg-5">
+                  <div class="section-left">
+                    <div class="section-figure">
+                      <iframe width="100%" height="315" src="https://www.youtube.com/embed/3myik4zPU2s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                      <p>Product Demonstration - Solution</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+			     <div>
+				 <h5><strong>Proposed Solution</strong></h5>
+				 </br>
+				 <p style="text-align: justify;"> The proposed system will develop a centralized AI-driven HEMS platform that integrates electricity, gas, solar, and water management into a single unified system. By employing advanced machine learning models such as reinforcement learning and LSTM networks, the platform will enable real-time prediction of solar generation, adaptive scheduling of appliances, and hybrid storage optimization. Voice-controlled interfaces and automated emergency responses will enhance safety, while multi-agent coordination will allow subsystems to dynamically interact for overall efficiency. The platform will provide real-time monitoring, automated alerts, and user-friendly interfaces to maximize energy savings, reduce waste, and increase operational lifespan of home energy infrastructure.	</P>
+                </div>
+          </div>
+            <!-- Research Objectives -->
+		   <div id="research_objectives" class="sub-section">
+        <div class="container">
+          <h2 class="pb-5 pt-5 text-center mb-5 display-5">Research Objectives</h2>
+          <!-- First Content Section-->
+          <div class="row align-items-center connecting-lines d-flex">
+            <div class="col-2 text-center bottom d-inline-flex justify-content-center align-items-center">
+              <div class="circle font-weight-bold"><i class="fa fa-star"></i></div>
+            </div>
+            <div class="col-6">
+              <h4>Classification of Weligama Coconut Leaf Wilt Disease</h4>
+              <p style="text-align: justify;">The first objective is to classify Weligama Coconut Leaf Wilt Disease (WCLWD) to provide a solution for distinguishing WCLWD uneven yellowing from other diseases. In addition, the symptom severity of WCLWD was determined using a Convolutional Neural Network to identify the disease's symptom severity level to inform the Coconut Research Institute of Sri Lanka (CRISL) to proceed with the necessary precautions to reduce the dispersion rate.</p>
+            </div>
+          </div>
+          <!-- Path Line -->
+          <div class="row timeline_s">
+            <div class="col-2">
+              <div class="corner top-right"></div>
+            </div>
+            <div class="col-8">
+              <hr/>
+            </div>
+            <div class="col-2">
+              <div class="corner left-bottom"></div>
+            </div>
+          </div>
+          <!-- Second Content Section-->
+          <div class="row align-items-center justify-content-end connecting-lines d-flex">
+            <div class="col-6 text-right">
+              <h4> Enhanced Safety Through Intelligent Gas and Fire Management</h4>
+              <p style="text-align: justify;">Safety is a key component of our integrated HEMS. MQ-6 gas sensors and deep learning models for flame detection power our system. In an emergency, it can automatically shut off gas lines and turn off electrical circuits to help prevent accidents. This automated and proactive measure will be extra comfortable to know the household we implemented will be safe, if one of our vulnerable populations - the elderly or children - were in a tampered gas leak or electrical circuit scenario.</p>
+            </div>
+            <div class="col-2 text-center full d-inline-flex justify-content-center align-items-center">
+              <div class="circle font-weight-bold"><i class="fa fa-star"></i></div>
+            </div>
+          </div>
+          <!-- Path Line -->
+          <div class="row timeline_s">
+            <div class="col-2">
+              <div class="corner right-bottom"></div>
+            </div>
+            <div class="col-8">
+              <hr/>
+            </div>
+            <div class="col-2">
+              <div class="corner top-left"></div>
+            </div>
+          </div>
+          <!-- Third Content Section -->
+          <div class="row align-items-center connecting-lines d-flex">
+            <div class="col-2 text-center full d-inline-flex justify-content-center align-items-center">
+              <div class="circle font-weight-bold"><i class="fa fa-star"></i></div>
+            </div>
+            <div class="col-6">
+              <h4> Smart Water Usage and Conservation</h4>
+              <p style="text-align: justify;">
+               Water is typically an underappreciated element of energy management. The Home Energy Management System technology includes intelligent water monitoring, including pressure, flow and temperature data. Machine learning models can identify anomalies such as leaks or excessive water usage and notify users in real time. Every drop matters conserving water, saves energy for heating and pumping water too, contributing to the overall management of energy within homes.</p>
+            </div>
+          </div>
+		   <!-- Path Line -->
+
+          <div class="row timeline_s">
+            <div class="col-2">
+              <div class="corner top-right"></div>
+            </div>
+            <div class="col-8">
+              <hr/>
+            </div>
+            <div class="col-2">
+              <div class="corner left-bottom"></div>
+            </div>
+          </div>
+          <!-- Second Content Section-->
+          <div class="row align-items-center justify-content-end connecting-lines d-flex">
+            <div class="col-6 text-right">
+              <h4>Crowdsourcing for information sharing</h4>
+              <p style="text-align: justify;"> The electricity management module is designed to use ESP32 microcontrollers and environmental sensors to control household appliances based on occupancy, time of use tariffs, and user-defined preferences. Rather than relying on prescribed rules, the electricity management module learns how the user utilizes their appliances and adjusts how it operates over time. The electricity management module schedules the use of appliances intelligently, which reduces unnecessary energy consumption and ultimately saves the user money on their electricity bills while ensuring their comfort is not inhibited.</p>
+            </div>
+            <div class="col-2 text-center full d-inline-flex justify-content-center align-items-center">
+              <div class="circle font-weight-bold"><i class="fa fa-star"></i></div>
+            </div>
+          </div>
+          <!-- Path Line -->
+          <div class="row timeline_s">
+            <div class="col-2">
+              <div class="corner right-bottom"></div>
+            </div>
+            <div class="col-8">
+              <hr/>
+            </div>
+            <div class="col-2">
+              <div class="corner top-left"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+            <!-- Methodology -->
+            <div id="methodology" class="sub-section">
+              <h2>Methodology</h2>
+              <div class="row">
+                <div id="project-scope-left" class="col-md-6 col-sm-12 pt-lg-5">
+                  <div class="section-left">
+                    <div class="section-figure">
+                      <img src="./Images/other/architecture.jpeg" width="100%"/>
+                      <p>Figure 2. High Level Architecture of the system.</p>
+                    </div>
+                  </div>
+                </div>
+                <div id="project-scope-right" class="col-md-6 col-sm-12 pt-lg-5 justify-text">
+                  <p>The proposed pest and disease Surveillance system consists of 4 main components. They are;</p>
+                  <ol>
+                    <li><strong>WCLWD and its symptom severity identification</strong></li>
+                    <li><strong>CCI Identification and progression level determination</strong></li>
+                    <li><strong>Deficiency Identification (Mg deficiency and Leaf Scorch Decline)</strong></li>
+					<li><strong>Water resource identification</strong></li>
+                    <li><strong>Crowdsourcing for information sharing.</strong></li>
+                  </ol>
+				  <p> Fig 4 illustrates the overall system diagram of the proposed solution which was intended to provide a smart approach for stakeholders, researchers, and Coconut Development Officers (CDOs) to detect the coconut diseases and pest infestations that may affect the coconut industry. As shown in the diagram, the registered users of the system can capture or upload the images which are suspicious. The images are sent to the Amazon Web Services (AWS) backend server where the flask server is deployed. These images are processed in the flask server by the designed DCNN models for disease identification. If WCLWD is found, the symptom severity will be determined using CNN models. Simultaneously, if CCI is identified, the images will go through the Mask-R-CNN model to determine the progression level while the number of caterpillars are extracted using the YOLOv5 object detection algorithm. Images will be classified using the CNN models of Mg deficiency and LSD at the same time.</p>
+				  <p>Once the system identifies that the leaves are infected, then the response will be captured by the crowdsourcing platform. The Google Map will be updated with the real time locations (latitude and longitude) of the infected palms. In Addition, the system will automatically send notifications to the farmers and other stakeholders who are at the risk of infection.</p>
+                </div>
+              </div>
+          </div>
+            <!-- Technologies Used -->
+            <div id="tech_used" class="sub-section">
+              <h2>Technologies Used</h2>
+              <div class="row technology mt-5">
+                <div class="col-md-2 col-sm-4 col-6 mb-5">
+                  <div class="avatar">
+                    <img src="./Images/tech/python.png" alt="Python">
+                  </div>
+                  <p>Python</p>
+                </div>
+                <div class="col-md-2 col-sm-4 col-6 mb-5">
+                  <div class="avatar">
+                    <img src="./Images/tech/react.png" alt="React">
+                  </div>
+                  <p>React</p>
+                </div>
+                <div class="col-md-2 col-sm-4 col-6 mb-5">
+                  <div class="avatar">
+                    <img src="./Images/tech/tensorflow.png" alt="Python">
+                  </div>
+                  <p>Tensorflow</p>
+                </div>
+                <div class="col-md-2 col-sm-4 col-6 mb-5">
+                  <div class="avatar">
+                    <img src="./Images/tech/keras.png" alt="Keras">
+                  </div>
+                  <p>Keras</p>
+                </div>
+                <div class="col-md-2 col-sm-4 col-6 mb-5">
+                  <div class="avatar">
+                    <img src="./Images/tech/mongo.jpg" alt="MongoDB">
+                  </div>
+                  <p>MongoDB</p>
+                </div>
+                <div class="col-md-2 col-sm-4 col-6 mb-5">
+                  <div class="avatar">
+                    <img src="./Images/tech/firebase.png" alt="Firebase">
+                  </div>
+                  <p>Firebase</p>
+                </div>
+				<div class="col-md-2 col-sm-4 col-6 mb-5">
+                  <div class="avatar">
+                    <img src="./Images/tech/googlecloud.png" alt="Google Cloud">
+                  </div>
+                  <p>Google Cloud</p>
+                </div>
+				<div class="col-md-2 col-sm-4 col-6 mb-5">
+                  <div class="avatar">
+                    <img src="./Images/tech/kafka.jpg" alt="Kafka">
+                  </div>
+                  <p>Kafka</p>
+                </div>
+				<div class="col-md-2 col-sm-4 col-6 mb-5">
+                  <div class="avatar">
+                    <img src="./Images/tech/doker.png" alt="Doker">
+                  </div>
+                  <p>Doker</p>
+                </div>
+				<div class="col-md-2 col-sm-4 col-6 mb-5">
+                  <div class="avatar">
+                    <img src="./Images/tech/colab.png" alt="Google Colab">
+                  </div>
+                  <p>Google Colab</p>
+                </div>
+				<div class="col-md-2 col-sm-4 col-6 mb-5">
+                  <div class="avatar">
+                    <img src="./Images/tech/googlemap.png" alt="Google map API">
+                  </div>
+                  <p>Google map API</p>
+                </div>
+				<div class="col-md-2 col-sm-4 col-6 mb-5">
+                  <div class="avatar">
+                    <img src="./Images/tech/jwt.png" alt="Jwt">
+                  </div>
+                  <p>Jwt</p>
+                </div>
+          </div>
+        </div>
+      </section>
+      <!-- Milestones -->
+      <section id="milestones" class="main-sections" >
+        <div class="container">
+            <h5 class="section-headings">Milestones</h5>
+            <div class="sub-section">
+                <h2>Timeline in Brief</h2>
+                <div class="milestones">
+                  <ul class="timeline">
+                    <!-- Project Proposal -->
+                    <li class="timeline-event">
+                      <label class="timeline-event-icon"></label>
+                      <div class="timeline-event-copy">
+                        <p class="timeline-event-thumbnail">July 2024</p>
+                        <h3>Project Proposal</h3>
+                        <p>A Project Proposal is presented to potential sponsors or clients to receive funding or get your project approved.</p>
+                        <p><strong>Marks Allocated : </strong>6</p>
+                        <div class="progress">
+                          <div class="progress-bar bg-success" role="progressbar" style="width: 6%" aria-valuenow="12" aria-valuemin="0" aria-valuemax="100">6%</div>
+                        </div>
+                      </div>
+                    </li>
+                    <!-- Progress Presentation I -->
+                    <li class="timeline-event">
+                      <label class="timeline-event-icon"></label>
+                      <div class="timeline-event-copy">
+                        <p class="timeline-event-thumbnail">December 2025</p>
+                        <h3>Progress Presentation I</h3>
+                        <p>Progress Presentation I reviews the 50% completetion status of the project. This reveals any gaps or inconsistencies in the design/requirements.</p>
+                        <p><strong>Marks Allocated : </strong>6</p>
+                        <div class="progress">
+                          <div class="progress-bar bg-infinity-primary" role="progressbar" style="width: 12%" aria-valuenow="13" aria-valuemin="0" aria-valuemax="100"></div>
+                          <div class="progress-bar bg-success" role="progressbar" style="width: 6%" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100">6%</div>
+                        </div>
+                      </div>
+                    </li>
+                    <!-- Research Paper -->
+                    <li class="timeline-event">
+                      <label class="timeline-event-icon"></label>
+                      <div class="timeline-event-copy">
+                        <p class="timeline-event-thumbnail">March 2025</p>
+                        <h3>Research Paper</h3>
+                        <p>Describes what you contribute to existing knowledge, giving due recognition to all work that you referred in making new knowledge</p>
+                        <p><strong>Marks Allocated : </strong>10</p>
+                        <div class="progress">
+                          <div class="progress-bar bg-infinity-primary" role="progressbar" style="width: 27%" aria-valuenow="27" aria-valuemin="0" aria-valuemax="100"></div>
+                          <div class="progress-bar bg-success" role="progressbar" style="width: 10%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">10%</div>
+                        </div>
+                      </div>
+                    </li>
+                    <!-- Progress Presentation II -->
+                    <li class="timeline-event">
+                      <label class="timeline-event-icon"></label>
+                      <div class="timeline-event-copy">
+                        <p class="timeline-event-thumbnail">March 2025</p>
+                        <h3>Progress Presentation II</h3>
+                        <p>Progress Presentation II reviews the 90% completetion status demonstration of the project. Along with a Poster presesntation which describes the project as a whole.</p>
+                        <p><strong>Marks Allocated : </strong>18</p>
+                        <div class="progress">
+                          <div class="progress-bar bg-infinity-primary" role="progressbar" style="width: 37%" aria-valuenow="37" aria-valuemin="0" aria-valuemax="100"></div>
+                          <div class="progress-bar bg-success" role="progressbar" style="width: 18%" aria-valuenow="18" aria-valuemin="0" aria-valuemax="100">18%</div>
+                        </div>
+                      </div>
+                    </li>
+                    <!-- Website -->
+                    <li class="timeline-event">
+                      <label class="timeline-event-icon"></label>
+                      <div class="timeline-event-copy">
+                        <p class="timeline-event-thumbnail">April 2025</p>
+                        <h3>Website Assessment</h3>
+                        <p>The Website helps to promote our research project and reveals all details related to the project.</p>
+                        <p><strong>Marks Allocated : </strong>2</p>
+                        <div class="progress">
+                          <div class="progress-bar bg-infinity-primary" role="progressbar" style="width: 55%" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
+                          <div class="progress-bar bg-success" role="progressbar" style="width: 2%" aria-valuenow="2" aria-valuemin="0" aria-valuemax="100">2%</div>
+                        </div>
+                      </div>
+                    </li>
+                    <!-- Logbook -->
+                    <li class="timeline-event">
+                      <label class="timeline-event-icon"></label>
+                      <div class="timeline-event-copy">
+                        <p class="timeline-event-thumbnail">May 2025</p>
+                        <h3>Final Presentation & VIVA</h3>
+                        <p>Viva is held individually to assess each members contribution to the project.</p>
+                        <p><strong>Marks Allocated : </strong>3</p>
+                        <div class="progress">
+                          <div class="progress-bar bg-infinity-primary" role="progressbar" style="width: 57%" aria-valuenow="57" aria-valuemin="0" aria-valuemax="100"></div>
+                          <div class="progress-bar bg-success" role="progressbar" style="width: 3%" aria-valuenow="4" aria-valuemin="0" aria-valuemax="100">3%</div>
+                        </div>
+                      </div>
+                    </li>
+                    <!-- Final Report -->
+                    <li class="timeline-event">
+                      <label class="timeline-event-icon"></label>
+                      <div class="timeline-event-copy">
+                        <p class="timeline-event-thumbnail">April 2025</p>
+                        <h3>Final Report</h3>
+                        <p>Final Report evalutes the completed project done throughout the year. Marks mentioned below includes marks for Individual & group reports and also Final report.</p>
+                        <p><strong>Marks Allocated : </strong>19</p>
+                        <div class="progress">
+                          <div class="progress-bar bg-infinity-primary" role="progressbar" style="width: 61%" aria-valuenow="61" aria-valuemin="0" aria-valuemax="100"></div>
+                          <div class="progress-bar bg-success" role="progressbar" style="width: 19%" aria-valuenow="29" aria-valuemin="0" aria-valuemax="100">19%</div>
+                        </div>
+                      </div>
+                    </li>
+                    <!-- Viva -->
+                    <li class="timeline-event">
+                      <label class="timeline-event-icon"></label>
+                      <div class="timeline-event-copy">
+                        <p class="timeline-event-thumbnail">June  2025</p>
+                        <h3>Research logbook</h3>
+                        <p>Status of the project is validated through the Logbook. This also includes, Status documents 1 & 2.</p>
+                        <p><strong>Marks Allocated : </strong>20</p>
+                        <div class="progress">
+                          <div class="progress-bar bg-infinity-primary" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                          <div class="progress-bar bg-success" role="progressbar" style="width: 20%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">10%</div>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+            </div>
+        </div>
+      </section>
+      <!-- Downloads -->
+      <section id="downloads" class="main-sections" >
+        <div class="container">
+            <h5 class="section-headings">Downloads</h5>
+            <!-- Documents -->
+            <div class="sub-section">
+                <h2>Documents</h2>
+                <p>Please find all documents related to this project below.</p>
+                <div class="row mt-sm-5 downloads-container">
+				 <!-- Topic Assessment -->
+                  <div class="col-lg-3 col-md-4 col-sm-12">
+                    <div class="card" >
+                      <div class="card-body">
+                        <h5 class="card-title"><i class="fas fa-file-pdf mr-2 download-pdf"></i>Topic Assessment</h5>
+                        <p class="card-text pt-sm-2">Submitted on 2021/02/25</p>
+                      </div>
+                      <ul class="download-items list-group list-group-flush">
+                        <li class="list-group-item">Group<a href="https://drive.google.com/file/d/1bb3MVFdUKWKnGOANRusNcVfQWPL25bHi/view?usp=sharing" target="_blank">Download</a></li>
+                        <!-- <li class="list-group-item">Individual<a href="">Download</a></li> -->
+                      </ul>
+
+                    </div>
+                  </div>
+                  <!-- Project Charter -->
+                  <div class="col-lg-3 col-md-4 col-sm-12">
+                    <div class="card" >
+                      <div class="card-body">
+                        <h5 class="card-title"><i class="fas fa-file-pdf mr-2 download-pdf"></i>Project Charter</h5>
+                        <p class="card-text pt-sm-2">Submitted on 2021/02/25</p>
+                      </div>
+                      <ul class="download-items list-group list-group-flush">
+                        <li class="list-group-item">Group<a href="https://drive.google.com/file/d/1SkZ36rNGmUOqeJ2POyQYl_jagM2NrtV_/view?usp=sharing" target="_blank">Download</a></li>
+                        <!-- <li class="list-group-item">Individual<a href="">Download</a></li> -->
+                      </ul>
+
+                    </div>
+                  </div>
+                  <!-- Project Proposal -->
+                  <div class="col-lg-3 col-md-4 col-sm-12">
+                    <div class="card" >
+                      <div class="card-body">
+                        <h5 class="card-title"><i class="fas fa-file-pdf mr-2 download-pdf"></i>Project Proposal</h5>
+                        <p class="card-text pt-sm-2">Submitted on 2021/03/22</p>
+                      </div>
+                      <ul class="download-items list-group list-group-flush">
+                        <li class="list-group-item">Individual<a href="https://drive.google.com/drive/folders/1BrImoJHubeT48b5ifj8dLV_JIrXky5Wo?usp=sharing" target="_blank">Download</a></li>
+                      </ul>
+
+                    </div>
+                  </div>
+                  <!-- Status Documents -->
+                  <div class="col-lg-3 col-md-4 col-sm-12">
+                    <div class="card" >
+                      <div class="card-body">
+                        <h5 class="card-title"><i class="fas fa-file-pdf mr-2 download-pdf"></i>Status Documents I</h5>
+                        <p class="card-text pt-sm-2">Submitted on 2021/07/05</p>
+                      </div>
+                      <ul class="download-items list-group list-group-flush">
+                        <!-- <li class="list-group-item">Group<a href="">Download</a></li> -->
+                        <li class="list-group-item">Individual<a href="https://drive.google.com/file/d/1mHeXVzJ6FxU8snM32FKT8zj_tnI4Octn/view?usp=sharing" target="_blank">Download</a></li>
+                      </ul>
+
+                    </div>
+                  </div>
+                  <!-- Status Documents -->
+                  <div class="col-lg-3 col-md-4 col-sm-12">
+                    <div class="card" >
+                      <div class="card-body">
+                        <h5 class="card-title"><i class="fas fa-file-pdf mr-2 download-pdf"></i>Status Documents II</h5>
+                        <p class="card-text pt-sm-2">Yet to be submitted, link will be updated soon.</p>
+                      </div>
+                      <ul class="download-items list-group list-group-flush">
+                        <!-- <li class="list-group-item">Group<a href="">Download</a></li> -->
+                        <li class="list-group-item">Individual<a href="https://drive.google.com/drive/folders/1Sy3KKNr3sNIyEIZkXSSjQQ9TDXAoZN24?usp=sharing" target="_blank">Download</a></li>
+                      </ul>
+
+                    </div>
+                  </div>
+                  <!-- Research -->
+                  <div class="col-lg-3 col-md-4 col-sm-12">
+                    <div class="card" >
+                      <div class="card-body">
+                        <h5 class="card-title"><i class="fas fa-file-pdf mr-2 download-pdf"></i>Research Paper</h5>
+                        <p class="card-text pt-sm-2">Yet to be submitted, link will be updated soon.</p>
+                      </div>
+                      <ul class="download-items list-group list-group-flush">
+                        <li class="list-group-item">Group<a href="https://drive.google.com/drive/folders/15cRz5yNaYkXsKyF5TdUxpuJ1pLd7B97V?usp=sharing" target="_blank">Download</a></li>
+                      </ul>
+
+                    </div>
+                  </div>
+                  <!-- Final Report -->
+                  <div class="col-lg-3 col-md-4 col-sm-12">
+                    <div class="card" >
+                      <div class="card-body">
+                        <h5 class="card-title"><i class="fas fa-file-pdf mr-2 download-pdf"></i>Final Report</h5>
+                        <p class="card-text pt-sm-2">Submitted on 2021/10/13</p>
+                      </div>
+                      <ul class="download-items list-group list-group-flush">
+                        <li class="list-group-item">Group<a href="https://drive.google.com/drive/folders/1kD5XuSULSgpdUvDAMHJJd_SyDSycwa2c?usp=sharing" target="_blank">Download</a></li>
+                        <li class="list-group-item">Individual<a href="https://drive.google.com/drive/folders/1TWM5u9trQHhLtMiRLJcOzHb1WSbBw6t0?usp=sharing" target="_blank">Download</a></li>
+                      </ul>
+
+                    </div>
+                  </div>
+                  <!-- Poster -->
+                  <div class="col-lg-3 col-md-4 col-sm-12">
+                    <div class="card" >
+                      <div class="card-body">
+                        <h5 class="card-title"><i class="fas fa-file-image mr-2 download-image"></i>Poster</h5>
+                        <p class="card-text pt-sm-2">Submitted on 2021/10/13</p>
+                      </div>
+                      <ul class="download-items list-group list-group-flush">
+                        <li class="list-group-item">Group<a href="https://drive.google.com/file/d/1uXVaaX4nqiGiqTAj7-JVHlgJ3XlHQQ3h/view?usp=sharing" target="_blank">Download</a></li>
+                      </ul>
+
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <!-- Presentations -->
+            <div id="presentations" class="sub-section">
+                <h2>Presentations</h2>
+                <p>Please find all presentations related this project below.</p>
+                <div class="row mt-sm-5 downloads-container">
+                  <!-- Project Proposal -->
+                  <div class="col-lg-3 col-md-4 col-sm-12">
+                    <div class="card" >
+                      <div class="card-body">
+                        <h5 class="card-title"><i class="fas fa-file-powerpoint mr-2 download-powerpoint"></i></i>Project Proposal</h5>
+                        <p class="card-text pt-sm-2">Submitted on 2021/03/14</p>
+                      </div>
+                      <ul class="download-items list-group list-group-flush">
+                        <li class="list-group-item">Group<a href="https://docs.google.com/presentation/d/1iwkEDXpi3XPNmHHyt3kwsKJ_mwLwe189/edit?usp=sharing&ouid=110826119005364270755&rtpof=true&sd=true" target="_blank">Download</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <!-- Progress Presentation I -->
+                  <div class="col-lg-3 col-md-4 col-sm-12">
+                    <div class="card" >
+                      <div class="card-body">
+                        <h5 class="card-title"><i class="fas fa-file-powerpoint mr-2 download-powerpoint"></i></i>Progress Presentation I</h5>
+                        <p class="card-text pt-sm-2">Submitted on 2021/07/08</p>
+                      </div>
+                      <ul class="download-items list-group list-group-flush">
+                        <li class="list-group-item">Group<a href="https://docs.google.com/presentation/d/1yqgYxUnWUOKHYTps4OPFHP9TXULljojZ/edit?usp=sharing&ouid=110826119005364270755&rtpof=true&sd=true" target="_blank">Download</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <!-- Progress Presentation II -->
+                  <div class="col-lg-3 col-md-4 col-sm-12">
+                    <div class="card" >
+                      <div class="card-body">
+                        <h5 class="card-title"><i class="fas fa-file-powerpoint mr-2 download-powerpoint"></i></i>Progress Presentation II</h5>
+                        <p class="card-text pt-sm-2">Submitted on 2021/10/18</p>
+                      </div>
+                      <ul class="download-items list-group list-group-flush">
+                        <li class="list-group-item">Group<a href="https://docs.google.com/presentation/d/1S7m3q_oq1gSP2xm2wiyoJ3-gBXVFcb3K/edit?usp=sharing&ouid=110826119005364270755&rtpof=true&sd=true" target="_blank">Download</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <!-- Final Presentation -->
+                  <div class="col-lg-3 col-md-4 col-sm-12">
+                    <div class="card" >
+                      <div class="card-body">
+                        <h5 class="card-title"><i class="fas fa-file-powerpoint mr-2 download-powerpoint"></i></i>Final Presentation</h5>
+                        <p class="card-text pt-sm-2">Yet to be submitted, link will be updated soon.</p>
+                      </div>
+                      <ul class="download-items list-group list-group-flush">
+                        <li class="list-group-item">Group<a href="https://drive.google.com/drive/folders/1o2p_otWVavjPy2StceanXwBFqd_w7Yo2?usp=sharing" target="_blank">Download</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+      </section>
+      <!-- About Us -->
+      <section id="about" class="main-sections " style="background-color:#FDFEFE">
+        <div class="container">
+            <h5 class="section-headings">About Us</h5>
+            <div class="sub-section about-us-container ">
+                <h2>Meet Our Team !</h2>
+                <div class="row  mt-sm-5 ">
+                  <!-- Supervisor -->
+                  <div class="col-lg-3 col-md-4 col-sm-12">
+                    <div class="card about-us-card">
+                      <img src="./Images/dp/supervisor.jpg" class="about-us-image supervisor" alt="Prof. Samantha Rajapaksha" height="20%"/>
+                      <div class="card-body">
+                        <h5 class="card-title">Prof. Samantha Rajapaksha</h5>
+						</br>
+                        <span class="badge badge-secondary">Supervisor</span>
+                        <div class="text-group">
+                          <p>Sri Lanka Institute of Information Technology</p>
+                        </div>
+                        <div class="text-group">
+                          <p><strong>Department</strong></p>
+                          <p>Information Technolog</p>
+                        </div>
+                      </div>
+                      <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+                          <a class="card-text mr-4" style="cursor: pointer;" href="linkedin.com/in/samantha-rajapaksha-528657b"><i class="fab fa-linkedin-in mr-2"></i>LinkedIn</a>
+                          <a class="card-text" style="cursor: pointer;" href="mailto:samantha.r@sliit.lk"><i class="fas fa-envelope-open-text mr-2"></i></i>E-Mail</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <!-- Co Supervisor -->
+                  <div class="col-lg-3 col-md-4 col-sm-12">
+                    <div class="card about-us-card">
+                      <img src="./Images/dp/cosupervisor.jpg" class="about-us-image cosupervisor" alt="Ms. Thamali Kelegama" height="20%"/>
+                      <div class="card-body">
+                        <h5 class="card-title">Ms. Thamali Kelegama</h5>
+						</br>
+                        <span class="badge badge-secondary">Co-Supervisor</span>
+                        <div class="text-group">
+                          <p>Sri Lanka Institute of Information Technology</p>
+                        </div>
+                        <div class="text-group">
+                          <p><strong>Department</strong></p>
+                          <p>Information Technolog</p>
+                        </div>
+                      </div>
+                      <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+                          <a class="card-text mr-4" style="cursor: pointer;" href="linkedin.com/in/thamali-bandara-kelegama-4ba15215b"><i class="fab fa-linkedin-in mr-2"></i>LinkedIn</a>
+                          <a class="card-text" style="cursor: pointer;" href="mailto:thamali.k@sliit.lk"><i class="fas fa-envelope-open-text mr-2"></i></i>E-Mail</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+				 <!-- external Supervisor 
+                  <div class="col-lg-3 col-md-4 col-sm-12">
+                    <div class="card about-us-card">
+                      <img src="./Images/dp/external_supervisor.JPG" class="about-us-image cosupervisor" alt="Dr. Nayanie S Aratchige" height="20%"/>
+                      <div class="card-body">
+                        <h5 class="card-title">Dr. Nayanie S Aratchige</h5>
+						</br>
+                        <span class="badge badge-secondary">External-Supervisor</span>
+                        <div class="text-group">
+                          <p>Coconut Research Institute of Sri Lanka</p>
+                        </div>
+                        <div class="text-group">
+                          <p><strong>Division</strong></p>
+                          <p>Crop Protection</p>
+                        </div>
+                      </div>
+                      <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+                          <a class="card-text mr-4" style="cursor: pointer;" href="https://scholar.google.com/citations?user=O6UYyJ0AAAAJ&hl=en"><i class="fab fa-google mr-2"></i>G-Scholar</a>
+                          <a class="card-text" style="cursor: pointer;" href="mailto:nsaratchige@gmail.com"><i class="fas fa-envelope-open-text mr-2"></i></i>E-Mail</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+				  </div>-->
+				  <div class="row  mt-sm-5" style="justify-content: center">
+                  <!-- Prathibha -->
+                  <div class="col-lg-3 col-md-4 col-sm-12">
+                    <div class="card about-us-card">
+                      <img src="./Images/dp/Prathibha.JPG" class="about-us-image " alt="Sithumini K.G.P" height="20%"/>
+                        <div class="card-body">
+                        <h5 class="card-title">Sithumini K.G.P</h5>
+						</br>
+                        <span class="badge badge-secondary">Group Leader</span>
+                        <div class="text-group">
+						<p><strong>Undergraduate</strong></p>
+                          <p>Sri Lanka Institute of Information Technology</p>
+                        </div>
+                        <div class="text-group">
+                        <p><strong>Department</strong></p>
+                          <p>Information Technology</p>
+                        </div>
+                      </div>
+                      <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+						<a class="card-text mr-4" style="cursor: pointer;" href="https://www.linkedin.com/in/prathisithumini/"><i class="fab fa-linkedin-in mr-2"></i>LinkedIn</a>
+                          <a class="card-text" style="cursor: pointer;" href="it21170584@my.sliit.lk"><i class="fas fa-envelope-open-text mr-2"></i></i>E-Mail</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <!-- Shashi-->
+                   <div class="col-lg-3 col-md-4 col-sm-12">
+                    <div class="card about-us-card">
+                      <img src="./Images/dp/Shashi.jpg" class="about-us-image" alt="Adhikari A. M. S. S" height="20%"/>
+                        <div class="card-body">
+                        <h5 class="card-title">Adhikari A. M. S. S</h5>
+						</br>
+                        <span class="badge badge-secondary">Group Member</span>
+                        <div class="text-group">
+						<p><strong>Undergraduate</strong></p>
+                          <p>Sri Lanka Institute of Information Technology</p>
+                        </div>
+                        <div class="text-group">
+                        <p><strong>Department</strong></p>
+                          <p>Information Technology</p>
+                        </div>
+                      </div>
+                      <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+						<a class="card-text mr-4" style="cursor: pointer;" href="linkedin.com/in/shashikala-sandeepani-a88784218"><i class="fab fa-linkedin-in mr-2"></i>LinkedIn</a>
+                          <a class="card-text" style="cursor: pointer;" href="it21173318@my.sliit.lk"><i class="fas fa-envelope-open-text mr-2"></i></i>E-Mail</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <!-- Damitha -->
+                          <div class="col-lg-3 col-md-4 col-sm-12">
+                    <div class="card about-us-card">
+                      <img src="./Images/dp/Damitha.jpg" class="about-us-image" alt="Mahanama K.T.D" height="20%"/>
+                        <div class="card-body">
+                        <h5 class="card-title">Mahanama K.T.D</h5>
+						</br>
+                        <span class="badge badge-secondary">Group Member</span>
+                        <div class="text-group">
+						<p><strong>Undergraduate</strong></p>
+                          <p>Sri Lanka Institute of Information Technology</p>
+                        </div>
+                        <div class="text-group">
+                        <p><strong>Department</strong></p>
+                          <p>Information Technology</p>
+                        </div>
+                      </div>
+                      <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+						<a class="card-text mr-4" style="cursor: pointer;" href="linkedin.com/in/gnanod-chathuramadu-379847130"><i class="fab fa-linkedin-in mr-2"></i>LinkedIn</a>
+                          <a class="card-text" style="cursor: pointer;" href="it21301490@my.sliit.lk"><i class="fas fa-envelope-open-text mr-2"></i></i>E-Mail</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <!-- Kaveendra -->
+                    <div class="col-lg-3 col-md-4 col-sm-12">
+                    <div class="card about-us-card">
+                      <img src="./Images/dp/Kaveendra.jpg" class="about-us-image" alt="Kodithuwakku K.M.J" height="20%"/>
+                        <div class="card-body">
+                        <h5 class="card-title">Kodithuwakku K.M.J</h5>
+						</br>
+                        <span class="badge badge-secondary">Group Member</span>
+                        <div class="text-group">
+						<p><strong>Undergraduate</strong></p>
+                          <p>Sri Lanka Institute of Information Technology</p>
+                        </div>
+                        <div class="text-group">
+                        <p><strong>Department</strong></p>
+                          <p>Information Technology</p>
+                        </div>
+                      </div>
+                      <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+						<a class="card-text mr-4" style="cursor: pointer;" href="linkedin.com/in/kaveendra-kodithuwakku-5420a5218"><i class="fab fa-linkedin-in mr-2"></i>LinkedIn</a>
+                          <a class="card-text" style="cursor: pointer;" href="it21173936@my.sliit.lk"><i class="fas fa-envelope-open-text mr-2"></i></i>E-Mail</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+				  </div>
+            </div>
+        </div>
+      </section>
+
+	    <!-- Achievements -->
+	   <section id="achievements" class="main-sections" >
+        <div class="container">
+          <h2 class="pb-5 pt-5 text-center  display-5">Achievements</h2>
+                  <div class="section-center">
+                    <div class="section-figure text-center">
+                      <img src="./Images/ach/award.png" width="80%"/>
+                    </div>
+                  </div>
+				  <div>
+				 </br>
+				 <p style="text-align: justify;"> We were selected as finalists to represent Sri Lanka Institute of Information Technology at the National Best Quality ICT Awards 2021 and E-Swabhumani 2021. Furthermore, we have been selected as national nominees to represent Sri Lanka in the WSA (World Summit Award) and WSA Youth in 2021.</P>
+                </div>
+        </div>
+      </section>
+	      <!-- Promo Banner -->
+		  <section id="banner" class="main-sections">
+        <div class="promo-banner">
+            <div class="container">
+
+            	 <div class="section-center">
+                    <div class="section-figure">
+                      <img src="./Images/back/Icon.png" width="10%"/>
+                    </div>
+                  </div>
+            </div>
+                 <h2 class="promo-banner-title">Download Now!</h2>
+                <p class="promo-banner-text">CocoRemedy mobile application is now available for download on Google Play. Click below to get the app now!</p>
+
+               <div class="section-center">
+                    <div class="section-figure">
+                      <a href="https://play.google.com/store/apps/details?id=com.bruteforce.cocoremedy"><img src="./Images/back/playstore.png" width="15%"/></a>
+                    </div>
+                  </div>
+        </div>
+		</section>
+
+      <!-- Contact Us -->
+      <section id="contact" class="main-sections" style="background-color:#FDFEFE">
+        <div class="container">
+            <h5 class="section-headings">Contact Us</h5>
+            <div class="sub-section">
+                <h2>Get in Touch</h2>
+                <div class="row  mt-sm-5">
+                  <div class="col-md-6 col-sm-12 contact-form">
+                    <form action="MAILTO:researchcoco@gmail.com" method="POST" enctype="text/plain">
+                      <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="John Doe">
+                      </div>
+                      <div class="form-group">
+                        <label for="email">Email address</label>
+                        <input type="email" class="form-control" id="email" placeholder="name@example.com">
+                      </div>
+                      <div class="form-group">
+                        <label for="message">Message or Query</label>
+                        <textarea class="form-control" id="message" rows="5"></textarea>
+                      </div>
+                      <button type="submit" class="btn btncolorgradient	">Submit</button>
+                    </form>
+                  </div>
+                  <div class="col-md-6 col-sm-12 contact-details">
+                    <div>
+                      <p><strong>Contact Details</strong></p>
+                      <p>For further queries please reach us at <a href="mailto: hem-system@gmail.com">hem-system@gmail.com</a></p>
+                      <p>Hope this project helped you in some manner. Thank you!</p>
+                      <p>-Team HEM System	</p>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+      </section>
+      <!-- Scripts -->
+    <script src="./lib/jquery/jquery-3.5.1.slim.min.js"></script>
+    <script src="./lib/fontawesome/js/all.min.js"></script>
+    <script src="./lib/bootstrap-4.5.3-dist/js/bootstrap.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
