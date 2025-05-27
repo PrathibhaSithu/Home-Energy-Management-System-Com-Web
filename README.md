@@ -18,9 +18,22 @@
 
 # Tools and technologies 
 
+##  * Software Dependencies
+  ### - Python
+  ### - React
+  ### - Node
+  ### - Mongo DB
+  ### - IOT
+
 # Architecture Diagram
 
 # Project Management Tools
+    ## Ms Planner
+
+
+
+<img src ="Gantt.png">
+
 
 ## 🚀 Setup & Usage  
 
