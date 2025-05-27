@@ -27,6 +27,8 @@
 
 # Architecture Diagram
 
+<img src ="SystemDiagram.jpg">
+
 # Project Management Tools
   ## Ms Planner
 
