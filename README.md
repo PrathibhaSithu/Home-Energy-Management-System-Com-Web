@@ -33,7 +33,7 @@
    cd hems_web
 
    ```
-3. Install Dependencies
+<!-- 3. Install Dependencies
     ```
     npm install
 
@@ -77,6 +77,6 @@
     ```
     npm run dev
 
-    ```
+    ``` -->
 
 ## ⭐ If you like this project, don't forget to star the repository! ⭐    
