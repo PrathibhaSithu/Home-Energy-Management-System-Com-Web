@@ -14,6 +14,14 @@
    ### &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Member 3 - IT21173936 - Kodithuwakku K.G.K.M.J - [KaveendraKodithuwakku](https://github.com/kaveeeee) :octocat:
    ### &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Member 4 - IT21301490 - Mahanama K.T.D - [DamithaMahanama](https://github.com/DamithaMahanama) :octocat:
 
+# Project Description
+
+# Tools and technologies 
+
+# Architecture Diagram
+
+# Project Management Tools
+
 ## 🚀 Setup & Usage  
 
 1. Clone the repository:  
